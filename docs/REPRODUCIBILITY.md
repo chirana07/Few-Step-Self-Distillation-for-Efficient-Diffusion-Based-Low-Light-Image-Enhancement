@@ -8,6 +8,16 @@
 - ARR: `alpha=0` for the reported FSD headline row.
 - Exact saved-output evidence: `results/headline/`.
 
+## Legacy 639/50 protocol
+
+- Source: `legacy_original_protocol/`.
+- Manifest: `configs/lolv2_real_legacy_split_639_50.json`.
+- Split: first 639 sorted LOL-v2 Real training pairs for optimization and final
+  50 pairs for validation; the official 100 test pairs are separate.
+- Training seed: 42; validation and checkpoint selection use five DDIM steps.
+- This is the provenance record for the original 22.91 dB result. It is
+  distinct from the frozen 620/69 integrity protocol below.
+
 ## Step ablation
 
 - Same exact FSD checkpoint for 5, 10, 20, 50, and 100 DDIM steps.

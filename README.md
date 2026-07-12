@@ -8,6 +8,7 @@ experiment results.
 
 - Root Python files: model, diffusion process, dataset loader, training, distillation, and evaluation code.
 - `src/`: manifest-aware, deterministic source used by the integrity and validation protocols.
+- `legacy_original_protocol/`: source and split documentation for the original 639/50 transferred-teacher protocol.
 - `scripts/`: ablations, efficiency measurement, figure generation, and integrity checks.
 - `notebooks/`: Kaggle notebooks used for the reproducibility runs.
 - `configs/`: immutable split manifests and run configuration records.
@@ -30,7 +31,11 @@ Datasets are not committed to this repository. Follow `docs/DATASETS.md` and pro
 
 ## Evaluation
 
-The main five-step FSD evaluation uses the LOL-v2 Real official test split. Example:
+The preserved 22.91 dB result uses the legacy 639/50 training-derived split
+documented in `legacy_original_protocol/`. The independently audited result
+uses the 620/69 manifest and deterministic source under `src/`. Both evaluate
+the official 100-image test split only after their respective choices are
+frozen. The main five-step evaluation command is:
 
 ```bash
 python evaluation.py \
