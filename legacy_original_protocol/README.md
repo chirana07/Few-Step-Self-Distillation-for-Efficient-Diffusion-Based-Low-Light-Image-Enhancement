@@ -13,9 +13,9 @@ The exact split is committed at:
 The legacy loader sorts the 689 paired LOL-v2 Real training filenames and uses
 the first 639 pairs for optimization and the final 50 pairs for validation.
 The 100 official test pairs are never included in either training or
-validation. The training seed is 42. The transferred teacher was selected using
-20-step validation; the FSD and anchor checkpoints were selected using
-five-step validation.
+validation. The training seed is 42. The transferred, FSD, and anchor
+checkpoints were selected using 20-step validation. Final test evaluation uses
+five-step DDIM.
 
 ## Checkpoint and evidence
 

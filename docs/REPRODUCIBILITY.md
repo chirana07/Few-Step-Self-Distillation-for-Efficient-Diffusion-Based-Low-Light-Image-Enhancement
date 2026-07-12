@@ -14,9 +14,9 @@
 - Manifest: `configs/lolv2_real_legacy_split_639_50.json`.
 - Split: first 639 sorted LOL-v2 Real training pairs for optimization and final
   50 pairs for validation; the official 100 test pairs are separate.
-- Training seed: 42; the transferred teacher was selected with 20-step
-  validation, while FSD and anchor checkpoints were selected with five-step
-  validation.
+- Training seed: 42; the transferred, FSD, and anchor checkpoints were
+  selected with 20-step validation. Final test evaluation uses five-step
+  DDIM.
 - This is the provenance record for the original 22.91 dB result. It is
   distinct from the frozen 620/69 integrity protocol below.
 
