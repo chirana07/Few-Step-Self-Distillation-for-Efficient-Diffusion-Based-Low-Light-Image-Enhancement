@@ -11,8 +11,9 @@
     "official_test": 100
   },
   "policy": {
-    "checkpoint_selection": "validation only",
-    "validation_inference_steps": 5,
+    "checkpoint_selection": "validation only; transferred teacher selected with 20 steps, FSD and anchor selected with 5 steps",
+    "transfer_validation_inference_steps": 20,
+    "fsd_anchor_validation_inference_steps": 5,
     "official_test": "evaluate after checkpoint selection; never included in training/validation"
   },
   "created_utc": "2026-07-12T14:00:49.584534+00:00",
