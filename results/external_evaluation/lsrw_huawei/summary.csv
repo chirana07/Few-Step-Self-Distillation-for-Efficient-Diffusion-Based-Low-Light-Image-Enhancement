@@ -1,0 +1,2 @@
+split,n,psnr_mean,psnr_std,ssim_mean,ssim_std,lpips_mean,runtime_mean,inference_steps,sampler,seed,gate_alpha,gate_floor
+lsrw_huawei,23,17.81403309916123,2.3350715014492343,0.5491858111212601,0.11328679601699157,0.41043432899143384,1.9452279546986455,5,ddim,99173,0.0,0.5

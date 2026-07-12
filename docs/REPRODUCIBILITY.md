@@ -39,3 +39,15 @@
 - Evidence: `results/integrity/`.
 - The executable manifest-aware implementation is in `src/`; run it through
   `scripts/run_integrity_protocol.py` rather than the legacy root training loop.
+
+## Fixed-checkpoint cross-dataset evaluation
+
+- Checkpoint SHA256: `5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37`.
+- Datasets: LOL-v1 eval15, LOL-v2 Synthetic, LSRW Huawei/Nikon, and VE-LOL Synthetic.
+- Sampler: DDIM, 5 steps; ARR `alpha=0`; fixed latent seed `99173`.
+- Exact-size low/high pairs only; mismatched LSRW pairs are recorded in the audit
+  and excluded without resizing.
+- Aggregate evidence: `results/external_evaluation/external_summary.csv`.
+- Pairing audit: `results/external_evaluation/pairing_audit.csv`.
+- Per-dataset summaries, protocol records, and per-image metrics are in the
+  corresponding subdirectories under `results/external_evaluation/`.

@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/kaggle/input/datasets/samannavaratne/student-distilled-pth/student_distilled.pth",
+  "checkpoint_sha256": "5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37",
+  "gate_alpha": 0.0,
+  "gate_floor": 0.5,
+  "inference_steps": 5,
+  "lpips_enabled": true,
+  "manifest": null,
+  "manifest_split": null,
+  "sampler": "ddim",
+  "seed": 99173,
+  "splits": [
+    "lol_v1_eval15:/kaggle/input/datasets/samannavaratne/zip-file/Zip_file/LOL-v1 eval15 /low:/kaggle/input/datasets/samannavaratne/zip-file/Zip_file/LOL-v1 eval15 /high"
+  ]
+}

@@ -1,0 +1,2 @@
+split,n,psnr_mean,psnr_std,ssim_mean,ssim_std,lpips_mean,runtime_mean,inference_steps,sampler,seed,gate_alpha,gate_floor
+lsrw_nikon,16,15.622828418700259,3.3461589969718233,0.4390884635961391,0.15930103834679338,0.22851550299674273,1.7190383821725845,5,ddim,99173,0.0,0.5
