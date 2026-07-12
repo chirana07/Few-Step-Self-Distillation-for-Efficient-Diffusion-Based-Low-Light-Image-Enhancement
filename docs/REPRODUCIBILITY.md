@@ -29,6 +29,7 @@
 - Gate floor: `0.5`.
 - Checkpoint SHA256: `5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37`.
 - Evidence: `results/step_ablation/table_vii_fixed_latent.csv`.
+- Per-image evidence and protocol records: `results/step_ablation/fixed_latent/`.
 - The earlier saved-output table is retained as
   `results/step_ablation/table_vii_legacy_saved_outputs.csv`.
 
