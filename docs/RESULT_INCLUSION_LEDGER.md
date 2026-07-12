@@ -27,7 +27,7 @@ paper item must identify its checkpoint, protocol, and supporting files.
 - Uses: abstract robustness sentence, main table, methodology qualification,
   conclusion, and limitations.
 
-### External zero-shot evaluation
+### Fixed-checkpoint cross-dataset evaluation
 
 - Exact original-protocol FSD checkpoint SHA-256:
   `5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37`.
@@ -40,7 +40,7 @@ paper item must identify its checkpoint, protocol, and supporting files.
 - VE-LOL Synthetic: 14.71 / 0.482 / 0.559, N=100.
 - Evidence: per-image CSVs, protocol JSON files, pairing audit, input
   baselines, and aggregate summary in `05_external_evaluation`.
-- Use: fixed-checkpoint zero-shot stress test, not a matched SOTA comparison.
+- Use: fixed-checkpoint paired stress test, not a matched SOTA comparison.
 
 ### Failure-case figure
 
@@ -60,13 +60,14 @@ paper item must identify its checkpoint, protocol, and supporting files.
 
 ## Newly retained
 
-### Clean original-protocol step ablation
+### Fixed-latent legacy-checkpoint step ablation
 
 - Exact FSD checkpoint SHA-256: `5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37`.
-- Evaluation uses DDIM, ARR $\alpha=0$, the LOL-v2 Real official test split, and $N=100$.
-- Evidence CSV: `01_verify_2291_lpips/table_vii_clean.csv`.
-- Results: 5/10/20/50/100 steps produce 22.9094/22.8141/22.7440/22.6903/22.6672 dB PSNR and 0.8146/0.8133/0.8126/0.8120/0.8117 SSIM.
-- The 5-step row agrees with the independently retained exact-output result (22.9094 dB / 0.8146 SSIM / 0.1914 LPIPS).
+- Evaluation uses DDIM, ARR $\alpha=0$, gate floor 0.5, the LOL-v2 Real official test split, and $N=100$.
+- The same per-image latent sequence is reused for every step count (seed 99173).
+- Evidence CSV: `results/step_ablation/table_vii_fixed_latent.csv`.
+- Results: 5/10/20/50/100 steps produce 22.8790/22.7817/22.7144/22.6637/22.6430 dB PSNR and 0.8145/0.8130/0.8123/0.8118/0.8115 SSIM.
+- The earlier saved-output rows are retained as `results/step_ablation/table_vii_legacy_saved_outputs.csv` and are not the fixed-latent evidence.
 
 ## Not restored
 

@@ -23,8 +23,14 @@
 ## Step ablation
 
 - Same exact FSD checkpoint for 5, 10, 20, 50, and 100 DDIM steps.
+- Dataset: LOL-v2 Real official test split, 100 paired images.
 - ARR: `alpha=0`.
-- Evidence: `results/table_vii_clean.csv`.
+- Fixed per-image latent seed: `99173`.
+- Gate floor: `0.5`.
+- Checkpoint SHA256: `5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37`.
+- Evidence: `results/step_ablation/table_vii_fixed_latent.csv`.
+- The earlier saved-output table is retained as
+  `results/step_ablation/table_vii_legacy_saved_outputs.csv`.
 
 ## Frozen integrity protocol
 

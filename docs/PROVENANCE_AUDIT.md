@@ -3,7 +3,7 @@
 ## Verified checkpoint lineage
 
 The revised headline checkpoint was not distilled directly from the original
-model trained from scratch. The actual lineage is:
+model trained from scratch. The actual author-trained lineage is:
 
 1. Original source checkpoint (`final.pth`).
 2. Additional supervised LOL-v2 Real fine-tuning requested for 50 epochs at
@@ -60,8 +60,8 @@ contains one optimization pass only and records its seed and immutable split.
 
 The current `22.91` result may be described as a transferred-teacher FSD run:
 
-> We first continued supervised training of a pretrained residual diffusion
-> checkpoint on LOL-v2 Real. A frozen checkpoint from this stage initialized
+> We first continued supervised training of the author-trained residual
+> diffusion checkpoint on LOL-v2 Real. A frozen checkpoint from this stage initialized
 > two compute-matched 20-epoch branches: FSD with teacher-refinement and
 > ground-truth anchor losses, and an anchor-only control with the distillation
 > term removed. Both use the same six-channel residual-conditioned U-Net.

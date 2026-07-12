@@ -1,8 +1,11 @@
 # Step 1: Verify the 22.91 dB result with LPIPS
 
-This rerun evaluates the exact revised `student_distilled.pth` checkpoint on
-the 100-image LOL-v2 Real test split using 5-step DDIM, ARR alpha 0, seed 42,
-and LPIPS-Alex. It produces PSNR, SSIM, and LPIPS in one invocation.
+This verification evaluates the exact revised `student_distilled.pth`
+checkpoint on the 100-image LOL-v2 Real test split using 5-step DDIM, ARR
+alpha 0, and LPIPS-Alex. It produces PSNR, SSIM, and LPIPS in one invocation.
+The original saved-output set does not record a common latent seed; this step
+therefore verifies metrics on those saved outputs rather than claiming a new
+controlled random-latent comparison.
 
 ## Add these Kaggle inputs
 
