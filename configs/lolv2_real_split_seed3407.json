@@ -1,0 +1,3183 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-07-10T13:48:06.617610+00:00",
+  "dataset": "LOL-v2 Real",
+  "dataset_root_at_creation": "/Users/chirana/Desktop/UOM/Sem 3/Software project IFS/Diffusion_new/LUMIDIFF/New_dif/Datasets/LOL-v2",
+  "split_method": "SHA-256 ranking of paired training filenames",
+  "seed": 3407,
+  "val_fraction": 0.1,
+  "counts": {
+    "train": 620,
+    "val": 69,
+    "test": 100
+  },
+  "policy": {
+    "checkpoint_selection": "val only",
+    "arr_selection": "val only",
+    "official_test": "evaluate once after all choices are frozen"
+  },
+  "splits": {
+    "train": [
+      {
+        "low": "low00001.png",
+        "high": "normal00001.png"
+      },
+      {
+        "low": "low00002.png",
+        "high": "normal00002.png"
+      },
+      {
+        "low": "low00003.png",
+        "high": "normal00003.png"
+      },
+      {
+        "low": "low00004.png",
+        "high": "normal00004.png"
+      },
+      {
+        "low": "low00005.png",
+        "high": "normal00005.png"
+      },
+      {
+        "low": "low00006.png",
+        "high": "normal00006.png"
+      },
+      {
+        "low": "low00007.png",
+        "high": "normal00007.png"
+      },
+      {
+        "low": "low00008.png",
+        "high": "normal00008.png"
+      },
+      {
+        "low": "low00009.png",
+        "high": "normal00009.png"
+      },
+      {
+        "low": "low00011.png",
+        "high": "normal00011.png"
+      },
+      {
+        "low": "low00012.png",
+        "high": "normal00012.png"
+      },
+      {
+        "low": "low00013.png",
+        "high": "normal00013.png"
+      },
+      {
+        "low": "low00014.png",
+        "high": "normal00014.png"
+      },
+      {
+        "low": "low00015.png",
+        "high": "normal00015.png"
+      },
+      {
+        "low": "low00016.png",
+        "high": "normal00016.png"
+      },
+      {
+        "low": "low00017.png",
+        "high": "normal00017.png"
+      },
+      {
+        "low": "low00018.png",
+        "high": "normal00018.png"
+      },
+      {
+        "low": "low00019.png",
+        "high": "normal00019.png"
+      },
+      {
+        "low": "low00020.png",
+        "high": "normal00020.png"
+      },
+      {
+        "low": "low00021.png",
+        "high": "normal00021.png"
+      },
+      {
+        "low": "low00022.png",
+        "high": "normal00022.png"
+      },
+      {
+        "low": "low00023.png",
+        "high": "normal00023.png"
+      },
+      {
+        "low": "low00025.png",
+        "high": "normal00025.png"
+      },
+      {
+        "low": "low00026.png",
+        "high": "normal00026.png"
+      },
+      {
+        "low": "low00028.png",
+        "high": "normal00028.png"
+      },
+      {
+        "low": "low00029.png",
+        "high": "normal00029.png"
+      },
+      {
+        "low": "low00030.png",
+        "high": "normal00030.png"
+      },
+      {
+        "low": "low00032.png",
+        "high": "normal00032.png"
+      },
+      {
+        "low": "low00033.png",
+        "high": "normal00033.png"
+      },
+      {
+        "low": "low00034.png",
+        "high": "normal00034.png"
+      },
+      {
+        "low": "low00035.png",
+        "high": "normal00035.png"
+      },
+      {
+        "low": "low00036.png",
+        "high": "normal00036.png"
+      },
+      {
+        "low": "low00037.png",
+        "high": "normal00037.png"
+      },
+      {
+        "low": "low00038.png",
+        "high": "normal00038.png"
+      },
+      {
+        "low": "low00039.png",
+        "high": "normal00039.png"
+      },
+      {
+        "low": "low00041.png",
+        "high": "normal00041.png"
+      },
+      {
+        "low": "low00042.png",
+        "high": "normal00042.png"
+      },
+      {
+        "low": "low00043.png",
+        "high": "normal00043.png"
+      },
+      {
+        "low": "low00044.png",
+        "high": "normal00044.png"
+      },
+      {
+        "low": "low00045.png",
+        "high": "normal00045.png"
+      },
+      {
+        "low": "low00047.png",
+        "high": "normal00047.png"
+      },
+      {
+        "low": "low00048.png",
+        "high": "normal00048.png"
+      },
+      {
+        "low": "low00049.png",
+        "high": "normal00049.png"
+      },
+      {
+        "low": "low00051.png",
+        "high": "normal00051.png"
+      },
+      {
+        "low": "low00052.png",
+        "high": "normal00052.png"
+      },
+      {
+        "low": "low00053.png",
+        "high": "normal00053.png"
+      },
+      {
+        "low": "low00054.png",
+        "high": "normal00054.png"
+      },
+      {
+        "low": "low00055.png",
+        "high": "normal00055.png"
+      },
+      {
+        "low": "low00056.png",
+        "high": "normal00056.png"
+      },
+      {
+        "low": "low00057.png",
+        "high": "normal00057.png"
+      },
+      {
+        "low": "low00058.png",
+        "high": "normal00058.png"
+      },
+      {
+        "low": "low00059.png",
+        "high": "normal00059.png"
+      },
+      {
+        "low": "low00060.png",
+        "high": "normal00060.png"
+      },
+      {
+        "low": "low00061.png",
+        "high": "normal00061.png"
+      },
+      {
+        "low": "low00062.png",
+        "high": "normal00062.png"
+      },
+      {
+        "low": "low00063.png",
+        "high": "normal00063.png"
+      },
+      {
+        "low": "low00064.png",
+        "high": "normal00064.png"
+      },
+      {
+        "low": "low00065.png",
+        "high": "normal00065.png"
+      },
+      {
+        "low": "low00066.png",
+        "high": "normal00066.png"
+      },
+      {
+        "low": "low00067.png",
+        "high": "normal00067.png"
+      },
+      {
+        "low": "low00068.png",
+        "high": "normal00068.png"
+      },
+      {
+        "low": "low00069.png",
+        "high": "normal00069.png"
+      },
+      {
+        "low": "low00070.png",
+        "high": "normal00070.png"
+      },
+      {
+        "low": "low00071.png",
+        "high": "normal00071.png"
+      },
+      {
+        "low": "low00072.png",
+        "high": "normal00072.png"
+      },
+      {
+        "low": "low00073.png",
+        "high": "normal00073.png"
+      },
+      {
+        "low": "low00074.png",
+        "high": "normal00074.png"
+      },
+      {
+        "low": "low00075.png",
+        "high": "normal00075.png"
+      },
+      {
+        "low": "low00076.png",
+        "high": "normal00076.png"
+      },
+      {
+        "low": "low00077.png",
+        "high": "normal00077.png"
+      },
+      {
+        "low": "low00078.png",
+        "high": "normal00078.png"
+      },
+      {
+        "low": "low00079.png",
+        "high": "normal00079.png"
+      },
+      {
+        "low": "low00080.png",
+        "high": "normal00080.png"
+      },
+      {
+        "low": "low00081.png",
+        "high": "normal00081.png"
+      },
+      {
+        "low": "low00082.png",
+        "high": "normal00082.png"
+      },
+      {
+        "low": "low00083.png",
+        "high": "normal00083.png"
+      },
+      {
+        "low": "low00084.png",
+        "high": "normal00084.png"
+      },
+      {
+        "low": "low00085.png",
+        "high": "normal00085.png"
+      },
+      {
+        "low": "low00086.png",
+        "high": "normal00086.png"
+      },
+      {
+        "low": "low00087.png",
+        "high": "normal00087.png"
+      },
+      {
+        "low": "low00088.png",
+        "high": "normal00088.png"
+      },
+      {
+        "low": "low00089.png",
+        "high": "normal00089.png"
+      },
+      {
+        "low": "low00091.png",
+        "high": "normal00091.png"
+      },
+      {
+        "low": "low00092.png",
+        "high": "normal00092.png"
+      },
+      {
+        "low": "low00093.png",
+        "high": "normal00093.png"
+      },
+      {
+        "low": "low00094.png",
+        "high": "normal00094.png"
+      },
+      {
+        "low": "low00095.png",
+        "high": "normal00095.png"
+      },
+      {
+        "low": "low00096.png",
+        "high": "normal00096.png"
+      },
+      {
+        "low": "low00097.png",
+        "high": "normal00097.png"
+      },
+      {
+        "low": "low00098.png",
+        "high": "normal00098.png"
+      },
+      {
+        "low": "low00099.png",
+        "high": "normal00099.png"
+      },
+      {
+        "low": "low00100.png",
+        "high": "normal00100.png"
+      },
+      {
+        "low": "low00101.png",
+        "high": "normal00101.png"
+      },
+      {
+        "low": "low00102.png",
+        "high": "normal00102.png"
+      },
+      {
+        "low": "low00103.png",
+        "high": "normal00103.png"
+      },
+      {
+        "low": "low00104.png",
+        "high": "normal00104.png"
+      },
+      {
+        "low": "low00105.png",
+        "high": "normal00105.png"
+      },
+      {
+        "low": "low00106.png",
+        "high": "normal00106.png"
+      },
+      {
+        "low": "low00107.png",
+        "high": "normal00107.png"
+      },
+      {
+        "low": "low00108.png",
+        "high": "normal00108.png"
+      },
+      {
+        "low": "low00109.png",
+        "high": "normal00109.png"
+      },
+      {
+        "low": "low00110.png",
+        "high": "normal00110.png"
+      },
+      {
+        "low": "low00111.png",
+        "high": "normal00111.png"
+      },
+      {
+        "low": "low00112.png",
+        "high": "normal00112.png"
+      },
+      {
+        "low": "low00113.png",
+        "high": "normal00113.png"
+      },
+      {
+        "low": "low00114.png",
+        "high": "normal00114.png"
+      },
+      {
+        "low": "low00116.png",
+        "high": "normal00116.png"
+      },
+      {
+        "low": "low00117.png",
+        "high": "normal00117.png"
+      },
+      {
+        "low": "low00118.png",
+        "high": "normal00118.png"
+      },
+      {
+        "low": "low00119.png",
+        "high": "normal00119.png"
+      },
+      {
+        "low": "low00120.png",
+        "high": "normal00120.png"
+      },
+      {
+        "low": "low00121.png",
+        "high": "normal00121.png"
+      },
+      {
+        "low": "low00122.png",
+        "high": "normal00122.png"
+      },
+      {
+        "low": "low00123.png",
+        "high": "normal00123.png"
+      },
+      {
+        "low": "low00125.png",
+        "high": "normal00125.png"
+      },
+      {
+        "low": "low00126.png",
+        "high": "normal00126.png"
+      },
+      {
+        "low": "low00127.png",
+        "high": "normal00127.png"
+      },
+      {
+        "low": "low00128.png",
+        "high": "normal00128.png"
+      },
+      {
+        "low": "low00129.png",
+        "high": "normal00129.png"
+      },
+      {
+        "low": "low00130.png",
+        "high": "normal00130.png"
+      },
+      {
+        "low": "low00131.png",
+        "high": "normal00131.png"
+      },
+      {
+        "low": "low00132.png",
+        "high": "normal00132.png"
+      },
+      {
+        "low": "low00133.png",
+        "high": "normal00133.png"
+      },
+      {
+        "low": "low00134.png",
+        "high": "normal00134.png"
+      },
+      {
+        "low": "low00135.png",
+        "high": "normal00135.png"
+      },
+      {
+        "low": "low00136.png",
+        "high": "normal00136.png"
+      },
+      {
+        "low": "low00137.png",
+        "high": "normal00137.png"
+      },
+      {
+        "low": "low00138.png",
+        "high": "normal00138.png"
+      },
+      {
+        "low": "low00140.png",
+        "high": "normal00140.png"
+      },
+      {
+        "low": "low00141.png",
+        "high": "normal00141.png"
+      },
+      {
+        "low": "low00142.png",
+        "high": "normal00142.png"
+      },
+      {
+        "low": "low00143.png",
+        "high": "normal00143.png"
+      },
+      {
+        "low": "low00144.png",
+        "high": "normal00144.png"
+      },
+      {
+        "low": "low00145.png",
+        "high": "normal00145.png"
+      },
+      {
+        "low": "low00147.png",
+        "high": "normal00147.png"
+      },
+      {
+        "low": "low00149.png",
+        "high": "normal00149.png"
+      },
+      {
+        "low": "low00150.png",
+        "high": "normal00150.png"
+      },
+      {
+        "low": "low00152.png",
+        "high": "normal00152.png"
+      },
+      {
+        "low": "low00153.png",
+        "high": "normal00153.png"
+      },
+      {
+        "low": "low00154.png",
+        "high": "normal00154.png"
+      },
+      {
+        "low": "low00155.png",
+        "high": "normal00155.png"
+      },
+      {
+        "low": "low00156.png",
+        "high": "normal00156.png"
+      },
+      {
+        "low": "low00157.png",
+        "high": "normal00157.png"
+      },
+      {
+        "low": "low00158.png",
+        "high": "normal00158.png"
+      },
+      {
+        "low": "low00159.png",
+        "high": "normal00159.png"
+      },
+      {
+        "low": "low00161.png",
+        "high": "normal00161.png"
+      },
+      {
+        "low": "low00162.png",
+        "high": "normal00162.png"
+      },
+      {
+        "low": "low00163.png",
+        "high": "normal00163.png"
+      },
+      {
+        "low": "low00165.png",
+        "high": "normal00165.png"
+      },
+      {
+        "low": "low00166.png",
+        "high": "normal00166.png"
+      },
+      {
+        "low": "low00167.png",
+        "high": "normal00167.png"
+      },
+      {
+        "low": "low00168.png",
+        "high": "normal00168.png"
+      },
+      {
+        "low": "low00170.png",
+        "high": "normal00170.png"
+      },
+      {
+        "low": "low00171.png",
+        "high": "normal00171.png"
+      },
+      {
+        "low": "low00172.png",
+        "high": "normal00172.png"
+      },
+      {
+        "low": "low00174.png",
+        "high": "normal00174.png"
+      },
+      {
+        "low": "low00175.png",
+        "high": "normal00175.png"
+      },
+      {
+        "low": "low00176.png",
+        "high": "normal00176.png"
+      },
+      {
+        "low": "low00177.png",
+        "high": "normal00177.png"
+      },
+      {
+        "low": "low00178.png",
+        "high": "normal00178.png"
+      },
+      {
+        "low": "low00179.png",
+        "high": "normal00179.png"
+      },
+      {
+        "low": "low00180.png",
+        "high": "normal00180.png"
+      },
+      {
+        "low": "low00181.png",
+        "high": "normal00181.png"
+      },
+      {
+        "low": "low00182.png",
+        "high": "normal00182.png"
+      },
+      {
+        "low": "low00183.png",
+        "high": "normal00183.png"
+      },
+      {
+        "low": "low00184.png",
+        "high": "normal00184.png"
+      },
+      {
+        "low": "low00185.png",
+        "high": "normal00185.png"
+      },
+      {
+        "low": "low00186.png",
+        "high": "normal00186.png"
+      },
+      {
+        "low": "low00187.png",
+        "high": "normal00187.png"
+      },
+      {
+        "low": "low00188.png",
+        "high": "normal00188.png"
+      },
+      {
+        "low": "low00189.png",
+        "high": "normal00189.png"
+      },
+      {
+        "low": "low00190.png",
+        "high": "normal00190.png"
+      },
+      {
+        "low": "low00192.png",
+        "high": "normal00192.png"
+      },
+      {
+        "low": "low00193.png",
+        "high": "normal00193.png"
+      },
+      {
+        "low": "low00194.png",
+        "high": "normal00194.png"
+      },
+      {
+        "low": "low00195.png",
+        "high": "normal00195.png"
+      },
+      {
+        "low": "low00196.png",
+        "high": "normal00196.png"
+      },
+      {
+        "low": "low00197.png",
+        "high": "normal00197.png"
+      },
+      {
+        "low": "low00198.png",
+        "high": "normal00198.png"
+      },
+      {
+        "low": "low00199.png",
+        "high": "normal00199.png"
+      },
+      {
+        "low": "low00200.png",
+        "high": "normal00200.png"
+      },
+      {
+        "low": "low00201.png",
+        "high": "normal00201.png"
+      },
+      {
+        "low": "low00202.png",
+        "high": "normal00202.png"
+      },
+      {
+        "low": "low00203.png",
+        "high": "normal00203.png"
+      },
+      {
+        "low": "low00204.png",
+        "high": "normal00204.png"
+      },
+      {
+        "low": "low00205.png",
+        "high": "normal00205.png"
+      },
+      {
+        "low": "low00206.png",
+        "high": "normal00206.png"
+      },
+      {
+        "low": "low00207.png",
+        "high": "normal00207.png"
+      },
+      {
+        "low": "low00208.png",
+        "high": "normal00208.png"
+      },
+      {
+        "low": "low00209.png",
+        "high": "normal00209.png"
+      },
+      {
+        "low": "low00210.png",
+        "high": "normal00210.png"
+      },
+      {
+        "low": "low00211.png",
+        "high": "normal00211.png"
+      },
+      {
+        "low": "low00212.png",
+        "high": "normal00212.png"
+      },
+      {
+        "low": "low00213.png",
+        "high": "normal00213.png"
+      },
+      {
+        "low": "low00214.png",
+        "high": "normal00214.png"
+      },
+      {
+        "low": "low00215.png",
+        "high": "normal00215.png"
+      },
+      {
+        "low": "low00216.png",
+        "high": "normal00216.png"
+      },
+      {
+        "low": "low00217.png",
+        "high": "normal00217.png"
+      },
+      {
+        "low": "low00218.png",
+        "high": "normal00218.png"
+      },
+      {
+        "low": "low00219.png",
+        "high": "normal00219.png"
+      },
+      {
+        "low": "low00220.png",
+        "high": "normal00220.png"
+      },
+      {
+        "low": "low00221.png",
+        "high": "normal00221.png"
+      },
+      {
+        "low": "low00222.png",
+        "high": "normal00222.png"
+      },
+      {
+        "low": "low00224.png",
+        "high": "normal00224.png"
+      },
+      {
+        "low": "low00225.png",
+        "high": "normal00225.png"
+      },
+      {
+        "low": "low00226.png",
+        "high": "normal00226.png"
+      },
+      {
+        "low": "low00227.png",
+        "high": "normal00227.png"
+      },
+      {
+        "low": "low00228.png",
+        "high": "normal00228.png"
+      },
+      {
+        "low": "low00229.png",
+        "high": "normal00229.png"
+      },
+      {
+        "low": "low00230.png",
+        "high": "normal00230.png"
+      },
+      {
+        "low": "low00231.png",
+        "high": "normal00231.png"
+      },
+      {
+        "low": "low00232.png",
+        "high": "normal00232.png"
+      },
+      {
+        "low": "low00233.png",
+        "high": "normal00233.png"
+      },
+      {
+        "low": "low00234.png",
+        "high": "normal00234.png"
+      },
+      {
+        "low": "low00235.png",
+        "high": "normal00235.png"
+      },
+      {
+        "low": "low00236.png",
+        "high": "normal00236.png"
+      },
+      {
+        "low": "low00237.png",
+        "high": "normal00237.png"
+      },
+      {
+        "low": "low00238.png",
+        "high": "normal00238.png"
+      },
+      {
+        "low": "low00239.png",
+        "high": "normal00239.png"
+      },
+      {
+        "low": "low00240.png",
+        "high": "normal00240.png"
+      },
+      {
+        "low": "low00241.png",
+        "high": "normal00241.png"
+      },
+      {
+        "low": "low00242.png",
+        "high": "normal00242.png"
+      },
+      {
+        "low": "low00243.png",
+        "high": "normal00243.png"
+      },
+      {
+        "low": "low00244.png",
+        "high": "normal00244.png"
+      },
+      {
+        "low": "low00246.png",
+        "high": "normal00246.png"
+      },
+      {
+        "low": "low00247.png",
+        "high": "normal00247.png"
+      },
+      {
+        "low": "low00248.png",
+        "high": "normal00248.png"
+      },
+      {
+        "low": "low00249.png",
+        "high": "normal00249.png"
+      },
+      {
+        "low": "low00251.png",
+        "high": "normal00251.png"
+      },
+      {
+        "low": "low00252.png",
+        "high": "normal00252.png"
+      },
+      {
+        "low": "low00253.png",
+        "high": "normal00253.png"
+      },
+      {
+        "low": "low00255.png",
+        "high": "normal00255.png"
+      },
+      {
+        "low": "low00256.png",
+        "high": "normal00256.png"
+      },
+      {
+        "low": "low00257.png",
+        "high": "normal00257.png"
+      },
+      {
+        "low": "low00258.png",
+        "high": "normal00258.png"
+      },
+      {
+        "low": "low00259.png",
+        "high": "normal00259.png"
+      },
+      {
+        "low": "low00260.png",
+        "high": "normal00260.png"
+      },
+      {
+        "low": "low00261.png",
+        "high": "normal00261.png"
+      },
+      {
+        "low": "low00262.png",
+        "high": "normal00262.png"
+      },
+      {
+        "low": "low00263.png",
+        "high": "normal00263.png"
+      },
+      {
+        "low": "low00264.png",
+        "high": "normal00264.png"
+      },
+      {
+        "low": "low00265.png",
+        "high": "normal00265.png"
+      },
+      {
+        "low": "low00266.png",
+        "high": "normal00266.png"
+      },
+      {
+        "low": "low00267.png",
+        "high": "normal00267.png"
+      },
+      {
+        "low": "low00268.png",
+        "high": "normal00268.png"
+      },
+      {
+        "low": "low00269.png",
+        "high": "normal00269.png"
+      },
+      {
+        "low": "low00270.png",
+        "high": "normal00270.png"
+      },
+      {
+        "low": "low00271.png",
+        "high": "normal00271.png"
+      },
+      {
+        "low": "low00272.png",
+        "high": "normal00272.png"
+      },
+      {
+        "low": "low00273.png",
+        "high": "normal00273.png"
+      },
+      {
+        "low": "low00275.png",
+        "high": "normal00275.png"
+      },
+      {
+        "low": "low00276.png",
+        "high": "normal00276.png"
+      },
+      {
+        "low": "low00277.png",
+        "high": "normal00277.png"
+      },
+      {
+        "low": "low00278.png",
+        "high": "normal00278.png"
+      },
+      {
+        "low": "low00279.png",
+        "high": "normal00279.png"
+      },
+      {
+        "low": "low00280.png",
+        "high": "normal00280.png"
+      },
+      {
+        "low": "low00282.png",
+        "high": "normal00282.png"
+      },
+      {
+        "low": "low00283.png",
+        "high": "normal00283.png"
+      },
+      {
+        "low": "low00284.png",
+        "high": "normal00284.png"
+      },
+      {
+        "low": "low00285.png",
+        "high": "normal00285.png"
+      },
+      {
+        "low": "low00286.png",
+        "high": "normal00286.png"
+      },
+      {
+        "low": "low00287.png",
+        "high": "normal00287.png"
+      },
+      {
+        "low": "low00288.png",
+        "high": "normal00288.png"
+      },
+      {
+        "low": "low00289.png",
+        "high": "normal00289.png"
+      },
+      {
+        "low": "low00290.png",
+        "high": "normal00290.png"
+      },
+      {
+        "low": "low00291.png",
+        "high": "normal00291.png"
+      },
+      {
+        "low": "low00292.png",
+        "high": "normal00292.png"
+      },
+      {
+        "low": "low00293.png",
+        "high": "normal00293.png"
+      },
+      {
+        "low": "low00294.png",
+        "high": "normal00294.png"
+      },
+      {
+        "low": "low00295.png",
+        "high": "normal00295.png"
+      },
+      {
+        "low": "low00296.png",
+        "high": "normal00296.png"
+      },
+      {
+        "low": "low00297.png",
+        "high": "normal00297.png"
+      },
+      {
+        "low": "low00298.png",
+        "high": "normal00298.png"
+      },
+      {
+        "low": "low00299.png",
+        "high": "normal00299.png"
+      },
+      {
+        "low": "low00300.png",
+        "high": "normal00300.png"
+      },
+      {
+        "low": "low00302.png",
+        "high": "normal00302.png"
+      },
+      {
+        "low": "low00303.png",
+        "high": "normal00303.png"
+      },
+      {
+        "low": "low00304.png",
+        "high": "normal00304.png"
+      },
+      {
+        "low": "low00305.png",
+        "high": "normal00305.png"
+      },
+      {
+        "low": "low00306.png",
+        "high": "normal00306.png"
+      },
+      {
+        "low": "low00307.png",
+        "high": "normal00307.png"
+      },
+      {
+        "low": "low00308.png",
+        "high": "normal00308.png"
+      },
+      {
+        "low": "low00309.png",
+        "high": "normal00309.png"
+      },
+      {
+        "low": "low00310.png",
+        "high": "normal00310.png"
+      },
+      {
+        "low": "low00312.png",
+        "high": "normal00312.png"
+      },
+      {
+        "low": "low00315.png",
+        "high": "normal00315.png"
+      },
+      {
+        "low": "low00316.png",
+        "high": "normal00316.png"
+      },
+      {
+        "low": "low00317.png",
+        "high": "normal00317.png"
+      },
+      {
+        "low": "low00318.png",
+        "high": "normal00318.png"
+      },
+      {
+        "low": "low00319.png",
+        "high": "normal00319.png"
+      },
+      {
+        "low": "low00320.png",
+        "high": "normal00320.png"
+      },
+      {
+        "low": "low00322.png",
+        "high": "normal00322.png"
+      },
+      {
+        "low": "low00324.png",
+        "high": "normal00324.png"
+      },
+      {
+        "low": "low00326.png",
+        "high": "normal00326.png"
+      },
+      {
+        "low": "low00327.png",
+        "high": "normal00327.png"
+      },
+      {
+        "low": "low00328.png",
+        "high": "normal00328.png"
+      },
+      {
+        "low": "low00329.png",
+        "high": "normal00329.png"
+      },
+      {
+        "low": "low00330.png",
+        "high": "normal00330.png"
+      },
+      {
+        "low": "low00331.png",
+        "high": "normal00331.png"
+      },
+      {
+        "low": "low00332.png",
+        "high": "normal00332.png"
+      },
+      {
+        "low": "low00334.png",
+        "high": "normal00334.png"
+      },
+      {
+        "low": "low00335.png",
+        "high": "normal00335.png"
+      },
+      {
+        "low": "low00336.png",
+        "high": "normal00336.png"
+      },
+      {
+        "low": "low00337.png",
+        "high": "normal00337.png"
+      },
+      {
+        "low": "low00338.png",
+        "high": "normal00338.png"
+      },
+      {
+        "low": "low00340.png",
+        "high": "normal00340.png"
+      },
+      {
+        "low": "low00341.png",
+        "high": "normal00341.png"
+      },
+      {
+        "low": "low00343.png",
+        "high": "normal00343.png"
+      },
+      {
+        "low": "low00344.png",
+        "high": "normal00344.png"
+      },
+      {
+        "low": "low00345.png",
+        "high": "normal00345.png"
+      },
+      {
+        "low": "low00346.png",
+        "high": "normal00346.png"
+      },
+      {
+        "low": "low00347.png",
+        "high": "normal00347.png"
+      },
+      {
+        "low": "low00348.png",
+        "high": "normal00348.png"
+      },
+      {
+        "low": "low00349.png",
+        "high": "normal00349.png"
+      },
+      {
+        "low": "low00350.png",
+        "high": "normal00350.png"
+      },
+      {
+        "low": "low00351.png",
+        "high": "normal00351.png"
+      },
+      {
+        "low": "low00352.png",
+        "high": "normal00352.png"
+      },
+      {
+        "low": "low00353.png",
+        "high": "normal00353.png"
+      },
+      {
+        "low": "low00354.png",
+        "high": "normal00354.png"
+      },
+      {
+        "low": "low00355.png",
+        "high": "normal00355.png"
+      },
+      {
+        "low": "low00356.png",
+        "high": "normal00356.png"
+      },
+      {
+        "low": "low00357.png",
+        "high": "normal00357.png"
+      },
+      {
+        "low": "low00358.png",
+        "high": "normal00358.png"
+      },
+      {
+        "low": "low00359.png",
+        "high": "normal00359.png"
+      },
+      {
+        "low": "low00360.png",
+        "high": "normal00360.png"
+      },
+      {
+        "low": "low00361.png",
+        "high": "normal00361.png"
+      },
+      {
+        "low": "low00362.png",
+        "high": "normal00362.png"
+      },
+      {
+        "low": "low00363.png",
+        "high": "normal00363.png"
+      },
+      {
+        "low": "low00364.png",
+        "high": "normal00364.png"
+      },
+      {
+        "low": "low00365.png",
+        "high": "normal00365.png"
+      },
+      {
+        "low": "low00366.png",
+        "high": "normal00366.png"
+      },
+      {
+        "low": "low00367.png",
+        "high": "normal00367.png"
+      },
+      {
+        "low": "low00368.png",
+        "high": "normal00368.png"
+      },
+      {
+        "low": "low00370.png",
+        "high": "normal00370.png"
+      },
+      {
+        "low": "low00371.png",
+        "high": "normal00371.png"
+      },
+      {
+        "low": "low00372.png",
+        "high": "normal00372.png"
+      },
+      {
+        "low": "low00374.png",
+        "high": "normal00374.png"
+      },
+      {
+        "low": "low00375.png",
+        "high": "normal00375.png"
+      },
+      {
+        "low": "low00376.png",
+        "high": "normal00376.png"
+      },
+      {
+        "low": "low00377.png",
+        "high": "normal00377.png"
+      },
+      {
+        "low": "low00378.png",
+        "high": "normal00378.png"
+      },
+      {
+        "low": "low00379.png",
+        "high": "normal00379.png"
+      },
+      {
+        "low": "low00380.png",
+        "high": "normal00380.png"
+      },
+      {
+        "low": "low00381.png",
+        "high": "normal00381.png"
+      },
+      {
+        "low": "low00382.png",
+        "high": "normal00382.png"
+      },
+      {
+        "low": "low00383.png",
+        "high": "normal00383.png"
+      },
+      {
+        "low": "low00384.png",
+        "high": "normal00384.png"
+      },
+      {
+        "low": "low00385.png",
+        "high": "normal00385.png"
+      },
+      {
+        "low": "low00386.png",
+        "high": "normal00386.png"
+      },
+      {
+        "low": "low00387.png",
+        "high": "normal00387.png"
+      },
+      {
+        "low": "low00388.png",
+        "high": "normal00388.png"
+      },
+      {
+        "low": "low00389.png",
+        "high": "normal00389.png"
+      },
+      {
+        "low": "low00390.png",
+        "high": "normal00390.png"
+      },
+      {
+        "low": "low00391.png",
+        "high": "normal00391.png"
+      },
+      {
+        "low": "low00392.png",
+        "high": "normal00392.png"
+      },
+      {
+        "low": "low00393.png",
+        "high": "normal00393.png"
+      },
+      {
+        "low": "low00394.png",
+        "high": "normal00394.png"
+      },
+      {
+        "low": "low00395.png",
+        "high": "normal00395.png"
+      },
+      {
+        "low": "low00397.png",
+        "high": "normal00397.png"
+      },
+      {
+        "low": "low00398.png",
+        "high": "normal00398.png"
+      },
+      {
+        "low": "low00399.png",
+        "high": "normal00399.png"
+      },
+      {
+        "low": "low00400.png",
+        "high": "normal00400.png"
+      },
+      {
+        "low": "low00401.png",
+        "high": "normal00401.png"
+      },
+      {
+        "low": "low00404.png",
+        "high": "normal00404.png"
+      },
+      {
+        "low": "low00405.png",
+        "high": "normal00405.png"
+      },
+      {
+        "low": "low00407.png",
+        "high": "normal00407.png"
+      },
+      {
+        "low": "low00408.png",
+        "high": "normal00408.png"
+      },
+      {
+        "low": "low00409.png",
+        "high": "normal00409.png"
+      },
+      {
+        "low": "low00410.png",
+        "high": "normal00410.png"
+      },
+      {
+        "low": "low00412.png",
+        "high": "normal00412.png"
+      },
+      {
+        "low": "low00413.png",
+        "high": "normal00413.png"
+      },
+      {
+        "low": "low00414.png",
+        "high": "normal00414.png"
+      },
+      {
+        "low": "low00416.png",
+        "high": "normal00416.png"
+      },
+      {
+        "low": "low00418.png",
+        "high": "normal00418.png"
+      },
+      {
+        "low": "low00419.png",
+        "high": "normal00419.png"
+      },
+      {
+        "low": "low00420.png",
+        "high": "normal00420.png"
+      },
+      {
+        "low": "low00421.png",
+        "high": "normal00421.png"
+      },
+      {
+        "low": "low00422.png",
+        "high": "normal00422.png"
+      },
+      {
+        "low": "low00423.png",
+        "high": "normal00423.png"
+      },
+      {
+        "low": "low00424.png",
+        "high": "normal00424.png"
+      },
+      {
+        "low": "low00425.png",
+        "high": "normal00425.png"
+      },
+      {
+        "low": "low00426.png",
+        "high": "normal00426.png"
+      },
+      {
+        "low": "low00427.png",
+        "high": "normal00427.png"
+      },
+      {
+        "low": "low00428.png",
+        "high": "normal00428.png"
+      },
+      {
+        "low": "low00429.png",
+        "high": "normal00429.png"
+      },
+      {
+        "low": "low00430.png",
+        "high": "normal00430.png"
+      },
+      {
+        "low": "low00431.png",
+        "high": "normal00431.png"
+      },
+      {
+        "low": "low00432.png",
+        "high": "normal00432.png"
+      },
+      {
+        "low": "low00433.png",
+        "high": "normal00433.png"
+      },
+      {
+        "low": "low00434.png",
+        "high": "normal00434.png"
+      },
+      {
+        "low": "low00435.png",
+        "high": "normal00435.png"
+      },
+      {
+        "low": "low00436.png",
+        "high": "normal00436.png"
+      },
+      {
+        "low": "low00437.png",
+        "high": "normal00437.png"
+      },
+      {
+        "low": "low00438.png",
+        "high": "normal00438.png"
+      },
+      {
+        "low": "low00439.png",
+        "high": "normal00439.png"
+      },
+      {
+        "low": "low00440.png",
+        "high": "normal00440.png"
+      },
+      {
+        "low": "low00441.png",
+        "high": "normal00441.png"
+      },
+      {
+        "low": "low00442.png",
+        "high": "normal00442.png"
+      },
+      {
+        "low": "low00443.png",
+        "high": "normal00443.png"
+      },
+      {
+        "low": "low00444.png",
+        "high": "normal00444.png"
+      },
+      {
+        "low": "low00445.png",
+        "high": "normal00445.png"
+      },
+      {
+        "low": "low00446.png",
+        "high": "normal00446.png"
+      },
+      {
+        "low": "low00448.png",
+        "high": "normal00448.png"
+      },
+      {
+        "low": "low00449.png",
+        "high": "normal00449.png"
+      },
+      {
+        "low": "low00450.png",
+        "high": "normal00450.png"
+      },
+      {
+        "low": "low00451.png",
+        "high": "normal00451.png"
+      },
+      {
+        "low": "low00452.png",
+        "high": "normal00452.png"
+      },
+      {
+        "low": "low00453.png",
+        "high": "normal00453.png"
+      },
+      {
+        "low": "low00454.png",
+        "high": "normal00454.png"
+      },
+      {
+        "low": "low00455.png",
+        "high": "normal00455.png"
+      },
+      {
+        "low": "low00456.png",
+        "high": "normal00456.png"
+      },
+      {
+        "low": "low00457.png",
+        "high": "normal00457.png"
+      },
+      {
+        "low": "low00458.png",
+        "high": "normal00458.png"
+      },
+      {
+        "low": "low00459.png",
+        "high": "normal00459.png"
+      },
+      {
+        "low": "low00460.png",
+        "high": "normal00460.png"
+      },
+      {
+        "low": "low00461.png",
+        "high": "normal00461.png"
+      },
+      {
+        "low": "low00462.png",
+        "high": "normal00462.png"
+      },
+      {
+        "low": "low00463.png",
+        "high": "normal00463.png"
+      },
+      {
+        "low": "low00464.png",
+        "high": "normal00464.png"
+      },
+      {
+        "low": "low00465.png",
+        "high": "normal00465.png"
+      },
+      {
+        "low": "low00467.png",
+        "high": "normal00467.png"
+      },
+      {
+        "low": "low00468.png",
+        "high": "normal00468.png"
+      },
+      {
+        "low": "low00469.png",
+        "high": "normal00469.png"
+      },
+      {
+        "low": "low00470.png",
+        "high": "normal00470.png"
+      },
+      {
+        "low": "low00471.png",
+        "high": "normal00471.png"
+      },
+      {
+        "low": "low00472.png",
+        "high": "normal00472.png"
+      },
+      {
+        "low": "low00473.png",
+        "high": "normal00473.png"
+      },
+      {
+        "low": "low00474.png",
+        "high": "normal00474.png"
+      },
+      {
+        "low": "low00475.png",
+        "high": "normal00475.png"
+      },
+      {
+        "low": "low00476.png",
+        "high": "normal00476.png"
+      },
+      {
+        "low": "low00477.png",
+        "high": "normal00477.png"
+      },
+      {
+        "low": "low00478.png",
+        "high": "normal00478.png"
+      },
+      {
+        "low": "low00479.png",
+        "high": "normal00479.png"
+      },
+      {
+        "low": "low00480.png",
+        "high": "normal00480.png"
+      },
+      {
+        "low": "low00481.png",
+        "high": "normal00481.png"
+      },
+      {
+        "low": "low00482.png",
+        "high": "normal00482.png"
+      },
+      {
+        "low": "low00483.png",
+        "high": "normal00483.png"
+      },
+      {
+        "low": "low00484.png",
+        "high": "normal00484.png"
+      },
+      {
+        "low": "low00485.png",
+        "high": "normal00485.png"
+      },
+      {
+        "low": "low00486.png",
+        "high": "normal00486.png"
+      },
+      {
+        "low": "low00487.png",
+        "high": "normal00487.png"
+      },
+      {
+        "low": "low00488.png",
+        "high": "normal00488.png"
+      },
+      {
+        "low": "low00489.png",
+        "high": "normal00489.png"
+      },
+      {
+        "low": "low00490.png",
+        "high": "normal00490.png"
+      },
+      {
+        "low": "low00491.png",
+        "high": "normal00491.png"
+      },
+      {
+        "low": "low00492.png",
+        "high": "normal00492.png"
+      },
+      {
+        "low": "low00493.png",
+        "high": "normal00493.png"
+      },
+      {
+        "low": "low00495.png",
+        "high": "normal00495.png"
+      },
+      {
+        "low": "low00496.png",
+        "high": "normal00496.png"
+      },
+      {
+        "low": "low00497.png",
+        "high": "normal00497.png"
+      },
+      {
+        "low": "low00498.png",
+        "high": "normal00498.png"
+      },
+      {
+        "low": "low00499.png",
+        "high": "normal00499.png"
+      },
+      {
+        "low": "low00501.png",
+        "high": "normal00501.png"
+      },
+      {
+        "low": "low00502.png",
+        "high": "normal00502.png"
+      },
+      {
+        "low": "low00503.png",
+        "high": "normal00503.png"
+      },
+      {
+        "low": "low00504.png",
+        "high": "normal00504.png"
+      },
+      {
+        "low": "low00505.png",
+        "high": "normal00505.png"
+      },
+      {
+        "low": "low00507.png",
+        "high": "normal00507.png"
+      },
+      {
+        "low": "low00508.png",
+        "high": "normal00508.png"
+      },
+      {
+        "low": "low00509.png",
+        "high": "normal00509.png"
+      },
+      {
+        "low": "low00510.png",
+        "high": "normal00510.png"
+      },
+      {
+        "low": "low00511.png",
+        "high": "normal00511.png"
+      },
+      {
+        "low": "low00512.png",
+        "high": "normal00512.png"
+      },
+      {
+        "low": "low00513.png",
+        "high": "normal00513.png"
+      },
+      {
+        "low": "low00514.png",
+        "high": "normal00514.png"
+      },
+      {
+        "low": "low00515.png",
+        "high": "normal00515.png"
+      },
+      {
+        "low": "low00516.png",
+        "high": "normal00516.png"
+      },
+      {
+        "low": "low00517.png",
+        "high": "normal00517.png"
+      },
+      {
+        "low": "low00518.png",
+        "high": "normal00518.png"
+      },
+      {
+        "low": "low00520.png",
+        "high": "normal00520.png"
+      },
+      {
+        "low": "low00521.png",
+        "high": "normal00521.png"
+      },
+      {
+        "low": "low00522.png",
+        "high": "normal00522.png"
+      },
+      {
+        "low": "low00523.png",
+        "high": "normal00523.png"
+      },
+      {
+        "low": "low00525.png",
+        "high": "normal00525.png"
+      },
+      {
+        "low": "low00526.png",
+        "high": "normal00526.png"
+      },
+      {
+        "low": "low00527.png",
+        "high": "normal00527.png"
+      },
+      {
+        "low": "low00528.png",
+        "high": "normal00528.png"
+      },
+      {
+        "low": "low00530.png",
+        "high": "normal00530.png"
+      },
+      {
+        "low": "low00531.png",
+        "high": "normal00531.png"
+      },
+      {
+        "low": "low00532.png",
+        "high": "normal00532.png"
+      },
+      {
+        "low": "low00533.png",
+        "high": "normal00533.png"
+      },
+      {
+        "low": "low00534.png",
+        "high": "normal00534.png"
+      },
+      {
+        "low": "low00535.png",
+        "high": "normal00535.png"
+      },
+      {
+        "low": "low00537.png",
+        "high": "normal00537.png"
+      },
+      {
+        "low": "low00538.png",
+        "high": "normal00538.png"
+      },
+      {
+        "low": "low00539.png",
+        "high": "normal00539.png"
+      },
+      {
+        "low": "low00540.png",
+        "high": "normal00540.png"
+      },
+      {
+        "low": "low00541.png",
+        "high": "normal00541.png"
+      },
+      {
+        "low": "low00543.png",
+        "high": "normal00543.png"
+      },
+      {
+        "low": "low00544.png",
+        "high": "normal00544.png"
+      },
+      {
+        "low": "low00546.png",
+        "high": "normal00546.png"
+      },
+      {
+        "low": "low00548.png",
+        "high": "normal00548.png"
+      },
+      {
+        "low": "low00549.png",
+        "high": "normal00549.png"
+      },
+      {
+        "low": "low00550.png",
+        "high": "normal00550.png"
+      },
+      {
+        "low": "low00551.png",
+        "high": "normal00551.png"
+      },
+      {
+        "low": "low00553.png",
+        "high": "normal00553.png"
+      },
+      {
+        "low": "low00555.png",
+        "high": "normal00555.png"
+      },
+      {
+        "low": "low00556.png",
+        "high": "normal00556.png"
+      },
+      {
+        "low": "low00557.png",
+        "high": "normal00557.png"
+      },
+      {
+        "low": "low00558.png",
+        "high": "normal00558.png"
+      },
+      {
+        "low": "low00559.png",
+        "high": "normal00559.png"
+      },
+      {
+        "low": "low00560.png",
+        "high": "normal00560.png"
+      },
+      {
+        "low": "low00562.png",
+        "high": "normal00562.png"
+      },
+      {
+        "low": "low00563.png",
+        "high": "normal00563.png"
+      },
+      {
+        "low": "low00564.png",
+        "high": "normal00564.png"
+      },
+      {
+        "low": "low00566.png",
+        "high": "normal00566.png"
+      },
+      {
+        "low": "low00567.png",
+        "high": "normal00567.png"
+      },
+      {
+        "low": "low00568.png",
+        "high": "normal00568.png"
+      },
+      {
+        "low": "low00569.png",
+        "high": "normal00569.png"
+      },
+      {
+        "low": "low00570.png",
+        "high": "normal00570.png"
+      },
+      {
+        "low": "low00571.png",
+        "high": "normal00571.png"
+      },
+      {
+        "low": "low00572.png",
+        "high": "normal00572.png"
+      },
+      {
+        "low": "low00573.png",
+        "high": "normal00573.png"
+      },
+      {
+        "low": "low00574.png",
+        "high": "normal00574.png"
+      },
+      {
+        "low": "low00575.png",
+        "high": "normal00575.png"
+      },
+      {
+        "low": "low00576.png",
+        "high": "normal00576.png"
+      },
+      {
+        "low": "low00577.png",
+        "high": "normal00577.png"
+      },
+      {
+        "low": "low00578.png",
+        "high": "normal00578.png"
+      },
+      {
+        "low": "low00579.png",
+        "high": "normal00579.png"
+      },
+      {
+        "low": "low00580.png",
+        "high": "normal00580.png"
+      },
+      {
+        "low": "low00581.png",
+        "high": "normal00581.png"
+      },
+      {
+        "low": "low00582.png",
+        "high": "normal00582.png"
+      },
+      {
+        "low": "low00583.png",
+        "high": "normal00583.png"
+      },
+      {
+        "low": "low00584.png",
+        "high": "normal00584.png"
+      },
+      {
+        "low": "low00585.png",
+        "high": "normal00585.png"
+      },
+      {
+        "low": "low00586.png",
+        "high": "normal00586.png"
+      },
+      {
+        "low": "low00587.png",
+        "high": "normal00587.png"
+      },
+      {
+        "low": "low00588.png",
+        "high": "normal00588.png"
+      },
+      {
+        "low": "low00589.png",
+        "high": "normal00589.png"
+      },
+      {
+        "low": "low00590.png",
+        "high": "normal00590.png"
+      },
+      {
+        "low": "low00591.png",
+        "high": "normal00591.png"
+      },
+      {
+        "low": "low00592.png",
+        "high": "normal00592.png"
+      },
+      {
+        "low": "low00593.png",
+        "high": "normal00593.png"
+      },
+      {
+        "low": "low00594.png",
+        "high": "normal00594.png"
+      },
+      {
+        "low": "low00595.png",
+        "high": "normal00595.png"
+      },
+      {
+        "low": "low00597.png",
+        "high": "normal00597.png"
+      },
+      {
+        "low": "low00598.png",
+        "high": "normal00598.png"
+      },
+      {
+        "low": "low00599.png",
+        "high": "normal00599.png"
+      },
+      {
+        "low": "low00600.png",
+        "high": "normal00600.png"
+      },
+      {
+        "low": "low00601.png",
+        "high": "normal00601.png"
+      },
+      {
+        "low": "low00602.png",
+        "high": "normal00602.png"
+      },
+      {
+        "low": "low00603.png",
+        "high": "normal00603.png"
+      },
+      {
+        "low": "low00604.png",
+        "high": "normal00604.png"
+      },
+      {
+        "low": "low00605.png",
+        "high": "normal00605.png"
+      },
+      {
+        "low": "low00606.png",
+        "high": "normal00606.png"
+      },
+      {
+        "low": "low00607.png",
+        "high": "normal00607.png"
+      },
+      {
+        "low": "low00608.png",
+        "high": "normal00608.png"
+      },
+      {
+        "low": "low00609.png",
+        "high": "normal00609.png"
+      },
+      {
+        "low": "low00610.png",
+        "high": "normal00610.png"
+      },
+      {
+        "low": "low00611.png",
+        "high": "normal00611.png"
+      },
+      {
+        "low": "low00612.png",
+        "high": "normal00612.png"
+      },
+      {
+        "low": "low00613.png",
+        "high": "normal00613.png"
+      },
+      {
+        "low": "low00614.png",
+        "high": "normal00614.png"
+      },
+      {
+        "low": "low00615.png",
+        "high": "normal00615.png"
+      },
+      {
+        "low": "low00616.png",
+        "high": "normal00616.png"
+      },
+      {
+        "low": "low00617.png",
+        "high": "normal00617.png"
+      },
+      {
+        "low": "low00618.png",
+        "high": "normal00618.png"
+      },
+      {
+        "low": "low00619.png",
+        "high": "normal00619.png"
+      },
+      {
+        "low": "low00620.png",
+        "high": "normal00620.png"
+      },
+      {
+        "low": "low00621.png",
+        "high": "normal00621.png"
+      },
+      {
+        "low": "low00622.png",
+        "high": "normal00622.png"
+      },
+      {
+        "low": "low00624.png",
+        "high": "normal00624.png"
+      },
+      {
+        "low": "low00625.png",
+        "high": "normal00625.png"
+      },
+      {
+        "low": "low00626.png",
+        "high": "normal00626.png"
+      },
+      {
+        "low": "low00627.png",
+        "high": "normal00627.png"
+      },
+      {
+        "low": "low00628.png",
+        "high": "normal00628.png"
+      },
+      {
+        "low": "low00629.png",
+        "high": "normal00629.png"
+      },
+      {
+        "low": "low00630.png",
+        "high": "normal00630.png"
+      },
+      {
+        "low": "low00633.png",
+        "high": "normal00633.png"
+      },
+      {
+        "low": "low00634.png",
+        "high": "normal00634.png"
+      },
+      {
+        "low": "low00635.png",
+        "high": "normal00635.png"
+      },
+      {
+        "low": "low00636.png",
+        "high": "normal00636.png"
+      },
+      {
+        "low": "low00637.png",
+        "high": "normal00637.png"
+      },
+      {
+        "low": "low00638.png",
+        "high": "normal00638.png"
+      },
+      {
+        "low": "low00639.png",
+        "high": "normal00639.png"
+      },
+      {
+        "low": "low00640.png",
+        "high": "normal00640.png"
+      },
+      {
+        "low": "low00641.png",
+        "high": "normal00641.png"
+      },
+      {
+        "low": "low00642.png",
+        "high": "normal00642.png"
+      },
+      {
+        "low": "low00643.png",
+        "high": "normal00643.png"
+      },
+      {
+        "low": "low00644.png",
+        "high": "normal00644.png"
+      },
+      {
+        "low": "low00646.png",
+        "high": "normal00646.png"
+      },
+      {
+        "low": "low00647.png",
+        "high": "normal00647.png"
+      },
+      {
+        "low": "low00649.png",
+        "high": "normal00649.png"
+      },
+      {
+        "low": "low00650.png",
+        "high": "normal00650.png"
+      },
+      {
+        "low": "low00651.png",
+        "high": "normal00651.png"
+      },
+      {
+        "low": "low00652.png",
+        "high": "normal00652.png"
+      },
+      {
+        "low": "low00653.png",
+        "high": "normal00653.png"
+      },
+      {
+        "low": "low00654.png",
+        "high": "normal00654.png"
+      },
+      {
+        "low": "low00655.png",
+        "high": "normal00655.png"
+      },
+      {
+        "low": "low00656.png",
+        "high": "normal00656.png"
+      },
+      {
+        "low": "low00657.png",
+        "high": "normal00657.png"
+      },
+      {
+        "low": "low00658.png",
+        "high": "normal00658.png"
+      },
+      {
+        "low": "low00659.png",
+        "high": "normal00659.png"
+      },
+      {
+        "low": "low00660.png",
+        "high": "normal00660.png"
+      },
+      {
+        "low": "low00661.png",
+        "high": "normal00661.png"
+      },
+      {
+        "low": "low00662.png",
+        "high": "normal00662.png"
+      },
+      {
+        "low": "low00663.png",
+        "high": "normal00663.png"
+      },
+      {
+        "low": "low00664.png",
+        "high": "normal00664.png"
+      },
+      {
+        "low": "low00665.png",
+        "high": "normal00665.png"
+      },
+      {
+        "low": "low00666.png",
+        "high": "normal00666.png"
+      },
+      {
+        "low": "low00668.png",
+        "high": "normal00668.png"
+      },
+      {
+        "low": "low00669.png",
+        "high": "normal00669.png"
+      },
+      {
+        "low": "low00670.png",
+        "high": "normal00670.png"
+      },
+      {
+        "low": "low00671.png",
+        "high": "normal00671.png"
+      },
+      {
+        "low": "low00672.png",
+        "high": "normal00672.png"
+      },
+      {
+        "low": "low00673.png",
+        "high": "normal00673.png"
+      },
+      {
+        "low": "low00674.png",
+        "high": "normal00674.png"
+      },
+      {
+        "low": "low00675.png",
+        "high": "normal00675.png"
+      },
+      {
+        "low": "low00676.png",
+        "high": "normal00676.png"
+      },
+      {
+        "low": "low00678.png",
+        "high": "normal00678.png"
+      },
+      {
+        "low": "low00679.png",
+        "high": "normal00679.png"
+      },
+      {
+        "low": "low00680.png",
+        "high": "normal00680.png"
+      },
+      {
+        "low": "low00681.png",
+        "high": "normal00681.png"
+      },
+      {
+        "low": "low00682.png",
+        "high": "normal00682.png"
+      },
+      {
+        "low": "low00683.png",
+        "high": "normal00683.png"
+      },
+      {
+        "low": "low00684.png",
+        "high": "normal00684.png"
+      },
+      {
+        "low": "low00686.png",
+        "high": "normal00686.png"
+      },
+      {
+        "low": "low00687.png",
+        "high": "normal00687.png"
+      },
+      {
+        "low": "low00688.png",
+        "high": "normal00688.png"
+      },
+      {
+        "low": "low00689.png",
+        "high": "normal00689.png"
+      }
+    ],
+    "val": [
+      {
+        "low": "low00010.png",
+        "high": "normal00010.png"
+      },
+      {
+        "low": "low00024.png",
+        "high": "normal00024.png"
+      },
+      {
+        "low": "low00027.png",
+        "high": "normal00027.png"
+      },
+      {
+        "low": "low00031.png",
+        "high": "normal00031.png"
+      },
+      {
+        "low": "low00040.png",
+        "high": "normal00040.png"
+      },
+      {
+        "low": "low00046.png",
+        "high": "normal00046.png"
+      },
+      {
+        "low": "low00050.png",
+        "high": "normal00050.png"
+      },
+      {
+        "low": "low00090.png",
+        "high": "normal00090.png"
+      },
+      {
+        "low": "low00115.png",
+        "high": "normal00115.png"
+      },
+      {
+        "low": "low00124.png",
+        "high": "normal00124.png"
+      },
+      {
+        "low": "low00139.png",
+        "high": "normal00139.png"
+      },
+      {
+        "low": "low00146.png",
+        "high": "normal00146.png"
+      },
+      {
+        "low": "low00148.png",
+        "high": "normal00148.png"
+      },
+      {
+        "low": "low00151.png",
+        "high": "normal00151.png"
+      },
+      {
+        "low": "low00160.png",
+        "high": "normal00160.png"
+      },
+      {
+        "low": "low00164.png",
+        "high": "normal00164.png"
+      },
+      {
+        "low": "low00169.png",
+        "high": "normal00169.png"
+      },
+      {
+        "low": "low00173.png",
+        "high": "normal00173.png"
+      },
+      {
+        "low": "low00191.png",
+        "high": "normal00191.png"
+      },
+      {
+        "low": "low00223.png",
+        "high": "normal00223.png"
+      },
+      {
+        "low": "low00245.png",
+        "high": "normal00245.png"
+      },
+      {
+        "low": "low00250.png",
+        "high": "normal00250.png"
+      },
+      {
+        "low": "low00254.png",
+        "high": "normal00254.png"
+      },
+      {
+        "low": "low00274.png",
+        "high": "normal00274.png"
+      },
+      {
+        "low": "low00281.png",
+        "high": "normal00281.png"
+      },
+      {
+        "low": "low00301.png",
+        "high": "normal00301.png"
+      },
+      {
+        "low": "low00311.png",
+        "high": "normal00311.png"
+      },
+      {
+        "low": "low00313.png",
+        "high": "normal00313.png"
+      },
+      {
+        "low": "low00314.png",
+        "high": "normal00314.png"
+      },
+      {
+        "low": "low00321.png",
+        "high": "normal00321.png"
+      },
+      {
+        "low": "low00323.png",
+        "high": "normal00323.png"
+      },
+      {
+        "low": "low00325.png",
+        "high": "normal00325.png"
+      },
+      {
+        "low": "low00333.png",
+        "high": "normal00333.png"
+      },
+      {
+        "low": "low00339.png",
+        "high": "normal00339.png"
+      },
+      {
+        "low": "low00342.png",
+        "high": "normal00342.png"
+      },
+      {
+        "low": "low00369.png",
+        "high": "normal00369.png"
+      },
+      {
+        "low": "low00373.png",
+        "high": "normal00373.png"
+      },
+      {
+        "low": "low00396.png",
+        "high": "normal00396.png"
+      },
+      {
+        "low": "low00402.png",
+        "high": "normal00402.png"
+      },
+      {
+        "low": "low00403.png",
+        "high": "normal00403.png"
+      },
+      {
+        "low": "low00406.png",
+        "high": "normal00406.png"
+      },
+      {
+        "low": "low00411.png",
+        "high": "normal00411.png"
+      },
+      {
+        "low": "low00415.png",
+        "high": "normal00415.png"
+      },
+      {
+        "low": "low00417.png",
+        "high": "normal00417.png"
+      },
+      {
+        "low": "low00447.png",
+        "high": "normal00447.png"
+      },
+      {
+        "low": "low00466.png",
+        "high": "normal00466.png"
+      },
+      {
+        "low": "low00494.png",
+        "high": "normal00494.png"
+      },
+      {
+        "low": "low00500.png",
+        "high": "normal00500.png"
+      },
+      {
+        "low": "low00506.png",
+        "high": "normal00506.png"
+      },
+      {
+        "low": "low00519.png",
+        "high": "normal00519.png"
+      },
+      {
+        "low": "low00524.png",
+        "high": "normal00524.png"
+      },
+      {
+        "low": "low00529.png",
+        "high": "normal00529.png"
+      },
+      {
+        "low": "low00536.png",
+        "high": "normal00536.png"
+      },
+      {
+        "low": "low00542.png",
+        "high": "normal00542.png"
+      },
+      {
+        "low": "low00545.png",
+        "high": "normal00545.png"
+      },
+      {
+        "low": "low00547.png",
+        "high": "normal00547.png"
+      },
+      {
+        "low": "low00552.png",
+        "high": "normal00552.png"
+      },
+      {
+        "low": "low00554.png",
+        "high": "normal00554.png"
+      },
+      {
+        "low": "low00561.png",
+        "high": "normal00561.png"
+      },
+      {
+        "low": "low00565.png",
+        "high": "normal00565.png"
+      },
+      {
+        "low": "low00596.png",
+        "high": "normal00596.png"
+      },
+      {
+        "low": "low00623.png",
+        "high": "normal00623.png"
+      },
+      {
+        "low": "low00631.png",
+        "high": "normal00631.png"
+      },
+      {
+        "low": "low00632.png",
+        "high": "normal00632.png"
+      },
+      {
+        "low": "low00645.png",
+        "high": "normal00645.png"
+      },
+      {
+        "low": "low00648.png",
+        "high": "normal00648.png"
+      },
+      {
+        "low": "low00667.png",
+        "high": "normal00667.png"
+      },
+      {
+        "low": "low00677.png",
+        "high": "normal00677.png"
+      },
+      {
+        "low": "low00685.png",
+        "high": "normal00685.png"
+      }
+    ],
+    "test": [
+      {
+        "low": "low00690.png",
+        "high": "normal00690.png"
+      },
+      {
+        "low": "low00691.png",
+        "high": "normal00691.png"
+      },
+      {
+        "low": "low00692.png",
+        "high": "normal00692.png"
+      },
+      {
+        "low": "low00693.png",
+        "high": "normal00693.png"
+      },
+      {
+        "low": "low00694.png",
+        "high": "normal00694.png"
+      },
+      {
+        "low": "low00695.png",
+        "high": "normal00695.png"
+      },
+      {
+        "low": "low00696.png",
+        "high": "normal00696.png"
+      },
+      {
+        "low": "low00697.png",
+        "high": "normal00697.png"
+      },
+      {
+        "low": "low00698.png",
+        "high": "normal00698.png"
+      },
+      {
+        "low": "low00699.png",
+        "high": "normal00699.png"
+      },
+      {
+        "low": "low00700.png",
+        "high": "normal00700.png"
+      },
+      {
+        "low": "low00701.png",
+        "high": "normal00701.png"
+      },
+      {
+        "low": "low00702.png",
+        "high": "normal00702.png"
+      },
+      {
+        "low": "low00703.png",
+        "high": "normal00703.png"
+      },
+      {
+        "low": "low00704.png",
+        "high": "normal00704.png"
+      },
+      {
+        "low": "low00705.png",
+        "high": "normal00705.png"
+      },
+      {
+        "low": "low00706.png",
+        "high": "normal00706.png"
+      },
+      {
+        "low": "low00707.png",
+        "high": "normal00707.png"
+      },
+      {
+        "low": "low00708.png",
+        "high": "normal00708.png"
+      },
+      {
+        "low": "low00709.png",
+        "high": "normal00709.png"
+      },
+      {
+        "low": "low00710.png",
+        "high": "normal00710.png"
+      },
+      {
+        "low": "low00711.png",
+        "high": "normal00711.png"
+      },
+      {
+        "low": "low00712.png",
+        "high": "normal00712.png"
+      },
+      {
+        "low": "low00713.png",
+        "high": "normal00713.png"
+      },
+      {
+        "low": "low00714.png",
+        "high": "normal00714.png"
+      },
+      {
+        "low": "low00715.png",
+        "high": "normal00715.png"
+      },
+      {
+        "low": "low00716.png",
+        "high": "normal00716.png"
+      },
+      {
+        "low": "low00717.png",
+        "high": "normal00717.png"
+      },
+      {
+        "low": "low00718.png",
+        "high": "normal00718.png"
+      },
+      {
+        "low": "low00719.png",
+        "high": "normal00719.png"
+      },
+      {
+        "low": "low00720.png",
+        "high": "normal00720.png"
+      },
+      {
+        "low": "low00721.png",
+        "high": "normal00721.png"
+      },
+      {
+        "low": "low00722.png",
+        "high": "normal00722.png"
+      },
+      {
+        "low": "low00723.png",
+        "high": "normal00723.png"
+      },
+      {
+        "low": "low00724.png",
+        "high": "normal00724.png"
+      },
+      {
+        "low": "low00725.png",
+        "high": "normal00725.png"
+      },
+      {
+        "low": "low00726.png",
+        "high": "normal00726.png"
+      },
+      {
+        "low": "low00727.png",
+        "high": "normal00727.png"
+      },
+      {
+        "low": "low00728.png",
+        "high": "normal00728.png"
+      },
+      {
+        "low": "low00729.png",
+        "high": "normal00729.png"
+      },
+      {
+        "low": "low00730.png",
+        "high": "normal00730.png"
+      },
+      {
+        "low": "low00731.png",
+        "high": "normal00731.png"
+      },
+      {
+        "low": "low00732.png",
+        "high": "normal00732.png"
+      },
+      {
+        "low": "low00733.png",
+        "high": "normal00733.png"
+      },
+      {
+        "low": "low00734.png",
+        "high": "normal00734.png"
+      },
+      {
+        "low": "low00735.png",
+        "high": "normal00735.png"
+      },
+      {
+        "low": "low00736.png",
+        "high": "normal00736.png"
+      },
+      {
+        "low": "low00737.png",
+        "high": "normal00737.png"
+      },
+      {
+        "low": "low00738.png",
+        "high": "normal00738.png"
+      },
+      {
+        "low": "low00739.png",
+        "high": "normal00739.png"
+      },
+      {
+        "low": "low00740.png",
+        "high": "normal00740.png"
+      },
+      {
+        "low": "low00741.png",
+        "high": "normal00741.png"
+      },
+      {
+        "low": "low00742.png",
+        "high": "normal00742.png"
+      },
+      {
+        "low": "low00743.png",
+        "high": "normal00743.png"
+      },
+      {
+        "low": "low00744.png",
+        "high": "normal00744.png"
+      },
+      {
+        "low": "low00745.png",
+        "high": "normal00745.png"
+      },
+      {
+        "low": "low00746.png",
+        "high": "normal00746.png"
+      },
+      {
+        "low": "low00747.png",
+        "high": "normal00747.png"
+      },
+      {
+        "low": "low00748.png",
+        "high": "normal00748.png"
+      },
+      {
+        "low": "low00749.png",
+        "high": "normal00749.png"
+      },
+      {
+        "low": "low00750.png",
+        "high": "normal00750.png"
+      },
+      {
+        "low": "low00751.png",
+        "high": "normal00751.png"
+      },
+      {
+        "low": "low00752.png",
+        "high": "normal00752.png"
+      },
+      {
+        "low": "low00753.png",
+        "high": "normal00753.png"
+      },
+      {
+        "low": "low00754.png",
+        "high": "normal00754.png"
+      },
+      {
+        "low": "low00755.png",
+        "high": "normal00755.png"
+      },
+      {
+        "low": "low00756.png",
+        "high": "normal00756.png"
+      },
+      {
+        "low": "low00757.png",
+        "high": "normal00757.png"
+      },
+      {
+        "low": "low00758.png",
+        "high": "normal00758.png"
+      },
+      {
+        "low": "low00759.png",
+        "high": "normal00759.png"
+      },
+      {
+        "low": "low00760.png",
+        "high": "normal00760.png"
+      },
+      {
+        "low": "low00761.png",
+        "high": "normal00761.png"
+      },
+      {
+        "low": "low00762.png",
+        "high": "normal00762.png"
+      },
+      {
+        "low": "low00763.png",
+        "high": "normal00763.png"
+      },
+      {
+        "low": "low00764.png",
+        "high": "normal00764.png"
+      },
+      {
+        "low": "low00765.png",
+        "high": "normal00765.png"
+      },
+      {
+        "low": "low00766.png",
+        "high": "normal00766.png"
+      },
+      {
+        "low": "low00767.png",
+        "high": "normal00767.png"
+      },
+      {
+        "low": "low00768.png",
+        "high": "normal00768.png"
+      },
+      {
+        "low": "low00769.png",
+        "high": "normal00769.png"
+      },
+      {
+        "low": "low00770.png",
+        "high": "normal00770.png"
+      },
+      {
+        "low": "low00771.png",
+        "high": "normal00771.png"
+      },
+      {
+        "low": "low00772.png",
+        "high": "normal00772.png"
+      },
+      {
+        "low": "low00773.png",
+        "high": "normal00773.png"
+      },
+      {
+        "low": "low00774.png",
+        "high": "normal00774.png"
+      },
+      {
+        "low": "low00775.png",
+        "high": "normal00775.png"
+      },
+      {
+        "low": "low00776.png",
+        "high": "normal00776.png"
+      },
+      {
+        "low": "low00777.png",
+        "high": "normal00777.png"
+      },
+      {
+        "low": "low00778.png",
+        "high": "normal00778.png"
+      },
+      {
+        "low": "low00779.png",
+        "high": "normal00779.png"
+      },
+      {
+        "low": "low00780.png",
+        "high": "normal00780.png"
+      },
+      {
+        "low": "low00781.png",
+        "high": "normal00781.png"
+      },
+      {
+        "low": "low00782.png",
+        "high": "normal00782.png"
+      },
+      {
+        "low": "low00783.png",
+        "high": "normal00783.png"
+      },
+      {
+        "low": "low00784.png",
+        "high": "normal00784.png"
+      },
+      {
+        "low": "low00785.png",
+        "high": "normal00785.png"
+      },
+      {
+        "low": "low00786.png",
+        "high": "normal00786.png"
+      },
+      {
+        "low": "low00787.png",
+        "high": "normal00787.png"
+      },
+      {
+        "low": "low00788.png",
+        "high": "normal00788.png"
+      },
+      {
+        "low": "low00789.png",
+        "high": "normal00789.png"
+      }
+    ]
+  }
+}

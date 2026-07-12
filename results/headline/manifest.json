@@ -1,0 +1,9 @@
+{
+  "method": "post-hoc LPIPS on exact saved outputs",
+  "source_per_image_csv": "/Users/chirana/Desktop/UOM/Sem 3/Software project IFS/Diffusion_new/LUMIDIFF/New_dif_revised/final_kaggle_outputs_results/final_results_distilled/per_image.csv",
+  "source_per_image_csv_sha256": "af0256c8f7099811300eaaf20fcbfb8c7a5eb80975dc77c11d1b8a3fad566fba",
+  "generated_directory": "/Users/chirana/Desktop/UOM/Sem 3/Software project IFS/Diffusion_new/LUMIDIFF/New_dif_revised/final_kaggle_outputs_results/final_results_distilled/distilled_test",
+  "ground_truth_directory": "/Users/chirana/Desktop/UOM/Sem 3/Software project IFS/Diffusion_new/LUMIDIFF/New_dif/Datasets/LOL-v2/Real_captured/Test/Normal",
+  "verified_images": 100,
+  "lpips_backbone": "alex"
+}

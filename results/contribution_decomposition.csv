@@ -1,0 +1,2 @@
+training_seed,continued_training_psnr,fsd_over_anchor_psnr,arr_over_fsd_psnr,total_over_source_psnr,continued_training_ssim,fsd_over_anchor_ssim,arr_over_fsd_ssim,total_over_source_ssim,continued_training_lpips,fsd_over_anchor_lpips,arr_over_fsd_lpips,total_over_source_lpips
+3407,-0.7191205499012767,0.6900515882156739,0.0,-0.0290689616856028,-0.003521266207280549,0.004421782495871551,0.0,0.0009005162885910023,0.016062646433711053,-0.015819619670510293,0.0,0.0002430267632007599

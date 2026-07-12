@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+results/raw_outputs/
+datasets/

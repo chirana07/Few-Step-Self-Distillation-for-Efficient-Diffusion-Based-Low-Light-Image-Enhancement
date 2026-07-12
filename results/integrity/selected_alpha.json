@@ -1,0 +1,9 @@
+{
+  "selected_alpha": 0.0,
+  "selection_metric": "mean validation PSNR",
+  "eval_seed": 99173,
+  "manifest": "/kaggle/working/Transferred_Teacher_Integrity/manifests/lolv2_real_split_seed3407.json",
+  "training_seeds": [
+    3407
+  ]
+}

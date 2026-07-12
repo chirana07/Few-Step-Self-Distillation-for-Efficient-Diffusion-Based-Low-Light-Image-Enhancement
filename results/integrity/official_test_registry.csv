@@ -1,0 +1,5 @@
+method,training_seed,checkpoint,alpha,psnr,ssim,lpips,n,evaluation_seed
+transferred_teacher,,/kaggle/input/datasets/samannavaratne/teacher-illum-ft/teacher_illum_ft.pth,0.0,22.591108353487698,0.813330172973339,0.19363336101174355,100,99173
+anchor_only,3407,/kaggle/working/Transferred_Teacher_Integrity/results/checkpoints/seed_3407/best_anchor_only_seed3407.pth,0.0,21.87198780358642,0.8098089067660584,0.2096960074454546,100,99173
+fsd,3407,/kaggle/working/Transferred_Teacher_Integrity/results/checkpoints/seed_3407/best_fsd_seed3407.pth,0.0,22.562039391802095,0.81423068926193,0.19387638777494431,100,99173
+fsd_arr,3407,/kaggle/working/Transferred_Teacher_Integrity/results/checkpoints/seed_3407/best_fsd_seed3407.pth,0.0,22.562039391802095,0.81423068926193,0.19387638777494431,100,99173

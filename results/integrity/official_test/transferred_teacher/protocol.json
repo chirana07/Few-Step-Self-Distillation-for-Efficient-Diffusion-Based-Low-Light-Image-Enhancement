@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/kaggle/input/datasets/samannavaratne/teacher-illum-ft/teacher_illum_ft.pth",
+  "checkpoint_sha256": "a92c2988ced5cb0fb8e403fb143913d8fc2837fdb31dbeb1634aa3ca031697a2",
+  "gate_alpha": 0.0,
+  "gate_floor": 0.5,
+  "inference_steps": 5,
+  "lpips_enabled": true,
+  "manifest": "/kaggle/working/Transferred_Teacher_Integrity/manifests/lolv2_real_split_seed3407.json",
+  "manifest_split": "test",
+  "sampler": "ddim",
+  "seed": 99173,
+  "splits": [
+    "lolv2_real_test:/kaggle/input/datasets/tanhyml/lol-v2-dataset/LOL-v2/Real_captured/Test/Low:/kaggle/input/datasets/tanhyml/lol-v2-dataset/LOL-v2/Real_captured/Test/Normal"
+  ]
+}

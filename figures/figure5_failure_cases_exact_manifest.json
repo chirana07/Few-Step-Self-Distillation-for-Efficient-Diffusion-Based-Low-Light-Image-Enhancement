@@ -1,0 +1,36 @@
+{
+  "source_checkpoint_sha256": "5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37",
+  "source_per_image_csv": "/Users/chirana/Desktop/UOM/Sem 3/Software project IFS/Diffusion_new/LUMIDIFF/New_dif_revised/final_kaggle_outputs_results/final_results_distilled/per_image.csv",
+  "source_per_image_csv_sha256": "af0256c8f7099811300eaaf20fcbfb8c7a5eb80975dc77c11d1b8a3fad566fba",
+  "selection": "three representative difficult scenes retained from the prior qualitative audit, rerendered from the exact 22.91 saved-output evaluation",
+  "figure": "/Users/chirana/Desktop/UOM/Sem 3/Software project IFS/Diffusion_new/LUMIDIFF/New_dif/Camera_Ready_Reconciliation/03_paper_reconciliation/figure5_failure_cases_exact.png",
+  "cases": [
+    {
+      "case": 1,
+      "image": "low00754.png",
+      "psnr": 14.295830016876677,
+      "ssim": 0.7223737137111219,
+      "low_sha256": "8e91275ecefd3f44a575017ecdb8944acc0f0ea367073276d19303016360b273",
+      "prediction_sha256": "9b20e8169c451a8e14df37995e77fcb0fd5343c1c15b116d3ca43db93b69b47d",
+      "ground_truth_sha256": "9504c69b64a14fcdc09c7d08b470e33594ebc48cd1c5f623d116746d75ec45a8"
+    },
+    {
+      "case": 2,
+      "image": "low00771.png",
+      "psnr": 21.97593474936587,
+      "ssim": 0.6567569428879567,
+      "low_sha256": "a65a178257d2f2158e4b856b5418edee2c8a920ca24cb803180441fab54cc551",
+      "prediction_sha256": "7c867ec2c6fa965acab8101a1314b9cfc9cb92c03055481912c5f1b6c00405c5",
+      "ground_truth_sha256": "6170492e7ea5c903c59b88e2b9ba16bf685f1561dd27a3c27296faf696590ada"
+    },
+    {
+      "case": 3,
+      "image": "low00789.png",
+      "psnr": 21.591142510798225,
+      "ssim": 0.6882018431329261,
+      "low_sha256": "5bf9f5a81ab9f4ffba6980839cdaac1245f0c805b4df4c3c9564a51446da0a9c",
+      "prediction_sha256": "e522c3adf8a92d87784e1f11c749df62a5e61b30c09ded9e162aa9625ac63081",
+      "ground_truth_sha256": "e9e249ba5276535ebe3e56229cd34f97e707e0e6807b9efa87e9e636f19f3ad9"
+    }
+  ]
+}

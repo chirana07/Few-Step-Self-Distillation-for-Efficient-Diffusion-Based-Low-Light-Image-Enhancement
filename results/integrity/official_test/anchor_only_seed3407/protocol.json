@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/kaggle/working/Transferred_Teacher_Integrity/results/checkpoints/seed_3407/best_anchor_only_seed3407.pth",
+  "checkpoint_sha256": "c24c03816c7c2d83851d1eff4bedee39ef0df2d9c11aec4dd8e3162b468cfd46",
+  "gate_alpha": 0.0,
+  "gate_floor": 0.5,
+  "inference_steps": 5,
+  "lpips_enabled": true,
+  "manifest": "/kaggle/working/Transferred_Teacher_Integrity/manifests/lolv2_real_split_seed3407.json",
+  "manifest_split": "test",
+  "sampler": "ddim",
+  "seed": 99173,
+  "splits": [
+    "lolv2_real_test:/kaggle/input/datasets/tanhyml/lol-v2-dataset/LOL-v2/Real_captured/Test/Low:/kaggle/input/datasets/tanhyml/lol-v2-dataset/LOL-v2/Real_captured/Test/Normal"
+  ]
+}

@@ -1,0 +1,4 @@
+configuration,n,psnr_mean,ssim_mean,lpips_mean
+anchor_only,100,21.4999853,0.8044401,0.2191640
+fsd,100,22.9094484,0.8145820,0.1913764
+fsd_minus_anchor,100,1.4094631,0.0101420,-0.0277875

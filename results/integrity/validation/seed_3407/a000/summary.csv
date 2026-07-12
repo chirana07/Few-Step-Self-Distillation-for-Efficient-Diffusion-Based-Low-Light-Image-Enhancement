@@ -1,0 +1,2 @@
+split,n,psnr_mean,psnr_std,ssim_mean,ssim_std,lpips_mean,runtime_mean,inference_steps,sampler,seed,gate_alpha,gate_floor
+lolv2_real_val,69,18.489544686773264,3.4328998491897704,0.5911407508239552,0.27299736839673905,,0.5436524377352949,5,ddim,99173,0.0,0.5
