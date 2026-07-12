@@ -6,7 +6,7 @@ Run these commands from this package directory:
 cd GitHub_Release_Package
 git init
 git lfs install
-git add .gitattributes .gitignore README.md requirements.txt docs scripts notebooks configs results figures checkpoints *.py
+git add .gitattributes .gitignore README.md requirements.txt docs src scripts notebooks configs results figures checkpoints *.py
 git status
 git commit -m "Initial reproducibility package for LUMIDIFF FSD"
 git branch -M main

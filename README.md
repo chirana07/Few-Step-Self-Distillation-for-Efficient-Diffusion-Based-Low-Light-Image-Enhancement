@@ -7,6 +7,7 @@ experiment results.
 ## Repository layout
 
 - Root Python files: model, diffusion process, dataset loader, training, distillation, and evaluation code.
+- `src/`: manifest-aware, deterministic source used by the integrity and validation protocols.
 - `scripts/`: ablations, efficiency measurement, figure generation, and integrity checks.
 - `notebooks/`: Kaggle notebooks used for the reproducibility runs.
 - `configs/`: immutable split manifests and run configuration records.

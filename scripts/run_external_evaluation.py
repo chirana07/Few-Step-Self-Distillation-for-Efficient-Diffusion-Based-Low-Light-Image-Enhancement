@@ -15,7 +15,7 @@ from skimage.metrics import structural_similarity
 
 
 ROOT = Path(__file__).resolve().parent
-SRC = ROOT / "src"
+SRC = ROOT.parent / "src"
 EXPECTED_CHECKPOINT_SHA256 = "5d7bac873b0b915fe6c0679b103fea9afe25f70de3958cab8da3d8779d156a37"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".bmp"}
 

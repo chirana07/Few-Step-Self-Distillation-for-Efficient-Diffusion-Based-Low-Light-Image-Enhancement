@@ -12,7 +12,8 @@ import torch
 
 
 ROOT = Path(__file__).resolve().parent
-SRC = ROOT / "src"
+WORKSPACE = ROOT.parent
+SRC = WORKSPACE / "src"
 EXPECTED_TEACHER_SHA256 = "a92c2988ced5cb0fb8e403fb143913d8fc2837fdb31dbeb1634aa3ca031697a2"
 
 
@@ -41,7 +42,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset-root", type=Path, required=True)
     parser.add_argument("--teacher", type=Path, required=True)
-    parser.add_argument("--manifest", type=Path, default=ROOT / "manifests/lolv2_real_split_seed3407.json")
+    parser.add_argument(
+        "--manifest", type=Path,
+        default=WORKSPACE / "configs/lolv2_real_split_seed3407.json",
+    )
     parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--seed", type=int, default=3407)
     parser.add_argument("--eval-seed", type=int, default=99173)

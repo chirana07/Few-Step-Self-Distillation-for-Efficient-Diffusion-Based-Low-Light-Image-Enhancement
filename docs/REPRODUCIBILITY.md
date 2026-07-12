@@ -19,3 +19,5 @@
 - Split manifest: `configs/lolv2_real_split_seed3407.json`.
 - Fixed evaluation latent seed: `99173`.
 - Evidence: `results/integrity/`.
+- The executable manifest-aware implementation is in `src/`; run it through
+  `scripts/run_integrity_protocol.py` rather than the legacy root training loop.
