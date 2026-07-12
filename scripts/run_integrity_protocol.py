@@ -230,7 +230,10 @@ def main():
     parser.add_argument("--stage", choices=["split", "train", "tune", "official-test", "all"], default="all")
     parser.add_argument("--dataset-root", required=True)
     parser.add_argument("--init-checkpoint", type=Path, required=True)
-    parser.add_argument("--manifest", type=Path, default=WORKSPACE / "manifests" / "lolv2_real_split_seed3407.json")
+    parser.add_argument(
+        "--manifest", type=Path,
+        default=WORKSPACE / "configs" / "lolv2_real_split_seed3407.json",
+    )
     parser.add_argument("--output-root", type=Path, default=WORKSPACE / "results")
     parser.add_argument("--seeds", default="3407",
                         help="Comma-separated training seeds. Use 3407,3408,3409 for the strong protocol.")
